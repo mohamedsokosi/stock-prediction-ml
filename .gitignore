@@ -205,3 +205,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- ML project (datasets / modèles / sorties) ---
+data/
+datasets/
+raw_data/
+outputs/
+models/
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# Gros fichiers (ne pas versionner)
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.zip
+*.7z
+*.gz
+*.rar
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# logs & rapports
+logs/
+reports/
